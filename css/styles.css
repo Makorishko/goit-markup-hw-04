@@ -69,8 +69,12 @@ img {
   gap: 40px;
   padding: 0;
   margin: 0;
-  
 }
+.team-container .list {
+  display: flex;
+  gap: 24px;
+}
+
 .section .list {
 }
 /* Navigation */
@@ -142,6 +146,13 @@ img {
 .section-business {
   background-color: var(--navy-blue);
   padding: 188px 0px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .section-business .container {
@@ -183,12 +194,10 @@ img {
 }
 /* Second section */
 .section-features {
-
   padding: 120px 0;
 }
 .section-features .list {
   gap: 24px;
-
 }
 
 .features {
@@ -215,7 +224,6 @@ img {
 .section-activity .container {
 }
 .section-activity .list {
-  display: flex;
   gap: 24px;
 }
 
@@ -242,7 +250,6 @@ img {
 }
 .section-team .list {
   gap: 24px;
-  
 }
 .list-team-item {
   background-color: #ffffff;
@@ -300,9 +307,16 @@ img {
   display: inline-block;
   margin-bottom: 16px;
 }
+
+/* Fifth section */
+.section-customers {
+  padding: 120px 0;
+}
+.section-customers .list {
+  gap: 24px;
+}
 /* Portfolio */
 .section-portfolio .container {
-  
 }
 .section-portfolio {
   padding: 96px 0 120px;
@@ -312,8 +326,6 @@ img {
   justify-content: center;
   margin-bottom: 72px;
   gap: 24px;
- 
-
 }
 
 .btn-filter {
@@ -366,7 +378,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate);
-
 }
 .portfolio-list-item .container {
   padding: 32px 16px;
@@ -374,4 +385,34 @@ img {
   border-top: none;
   margin-bottom: 8px;
   width: auto;
+}
+/* SVG */
+.icon-link {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  padding: 12px 12px;
+  display: block;
+  margin-top: 8px;
+  
+}
+
+.icon-link:hover {
+  background-color: #31d0aa;
+}
+.list-features-item .icon {
+}
+.container-icon {
+  background-color: #f4f4fd;
+  padding: 24px 100px;
+  border-radius: 4px;
+}
+.test {
+  display: inline-block;
+}
+.list .icon-link {
+}
+.test .list {
+  gap: 16px;
 }
