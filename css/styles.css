@@ -404,7 +404,13 @@ img {
 .icon-link:hover{
   background-color: #404bbf;
 }
+.icon-link:focus{
+  background-color: #404bbf;
+}
 .list-icon-footer .icon-link:hover {
+  background-color: #31d0aa;
+}
+.list-icon-footer .icon-link:focus {
   background-color: #31d0aa;
 }
 .list-features-item .icon {
@@ -448,10 +454,16 @@ img {
 .icon-link-customers:hover .icon-customers{
   fill: #404bbf;
 }
+.icon-link-customers:focus .icon-customers{
+  fill: #404bbf;
+}
 .icon-customers{
   fill: #8e8f99;
 }
 .icon-link-customers:hover {
+  border: 1px solid var(--ocean);
+}
+.icon-link-customers:focus {
   border: 1px solid var(--ocean);
 }
 
