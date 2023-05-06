@@ -417,6 +417,13 @@ img {
 .icon-link:focus {
   background-color: #404bbf;
 }
+.list-icon-footer{
+  width: 40px;
+  height: 40px;
+}
+.list-icon-footer .icon-link {
+  height: 100%;
+}
 .list-icon-footer .icon-link:hover {
   background-color: #31d0aa;
 }
