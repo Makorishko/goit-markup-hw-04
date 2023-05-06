@@ -409,8 +409,7 @@ img {
 }
 /* SVG */
 .icon-link {
-  width: 40px;
-  height: 40px;
+  
   border-radius: 50%;
   background-color: #4d5ae5;
   padding: 12px 12px;
@@ -419,6 +418,11 @@ img {
   justify-content: center;
   margin-top: 8px;
   height: 100%;
+  width: 100%;
+}
+.icon-item{
+  width: 40px;
+  height: 40px;
 }
 .icon-link .icon {
   fill: var(--cloud);
