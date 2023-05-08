@@ -156,6 +156,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 600px;
 }
 
 .section-business .container {
@@ -269,7 +270,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  margin-bottom: 8px;
+  
   text-align: center;
 }
 .specialization {
@@ -278,6 +279,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--slate);
   text-align: center;
+  margin-top: 8px;
 }
 
 /* Footer */
@@ -290,7 +292,7 @@ img {
   align-items: baseline;
 }
 .logo-container {
-  margin-right: 120px;
+ 
 }
 .text {
   color: var(--cloud);
@@ -412,7 +414,7 @@ img {
   
   border-radius: 50%;
   background-color: #4d5ae5;
-  padding: 12px 12px;
+  /* padding: 12px 12px; */
   display: flex;
   align-items: center;
   justify-content: center;
